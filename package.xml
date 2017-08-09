@@ -1,0 +1,24 @@
+<package>
+  <name>rviz_srv</name>
+  <version>0.0.1</version>
+  <description>
+    rviz services
+  </description>
+  <maintainer email="wsacul@gmail.com">Lucas Walter</maintainer>
+  <license>BSD</license>
+
+  <url type="website">https://github.com/lucasw/rviz_srv</url>
+  <url type="repository">https://github.com/lucasw/rviz_srv</url>
+  <url type="bugtracker">https://github.com/lucasw/rviz_srv/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
