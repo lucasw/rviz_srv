@@ -24,7 +24,7 @@ def sphere_point(radius, theta, phi):
 rospy.init_node('generate_marker')
 
 marker = Marker()
-marker.header.frame_id = rospy.get_param("~frame_id", "frame1")
+marker.header.frame_id = rospy.get_param("~frame_id", "map")
 marker.ns = marker.header.frame_id
 marker.id = 0
 marker.type = Marker.TRIANGLE_LIST
