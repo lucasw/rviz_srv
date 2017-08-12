@@ -9,7 +9,7 @@ find_package(catkin REQUIRED
 
 add_service_files(
   FILES AddMarker.srv
-) 
+)
 
 generate_messages(
   DEPENDENCIES
